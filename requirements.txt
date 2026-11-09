@@ -1,0 +1,10 @@
+numpy>=1.26
+pandas>=2.1
+scipy>=1.11
+scikit-learn>=1.4
+matplotlib>=3.8
+# optional but recommended
+statsmodels>=0.14   # ADF p-values (a numpy fallback is built in)
+shap>=0.45          # SHAP plots (permutation importance always runs)
+folium>=0.16        # interactive HTML risk map
+pytest>=8.0
